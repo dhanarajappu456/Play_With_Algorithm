@@ -1,3 +1,14 @@
+'''
+Greedy approach 
+
+
+sort the jobs based on the finish time, 
+
+
+since doing the job with least finish time would maximise the total number of activities performed
+
+
+'''
 n=int(input("enter total jobs: "))
 job=[] 
 print("enter start and end times :")
